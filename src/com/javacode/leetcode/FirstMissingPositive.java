@@ -1,12 +1,5 @@
 package com.javacode.leetcode;
 
-import com.sun.deploy.util.StringUtils;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * @Description:
  * @Author hans

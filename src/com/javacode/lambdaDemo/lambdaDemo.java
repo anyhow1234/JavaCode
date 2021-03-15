@@ -3,6 +3,7 @@ package com.javacode.lambdaDemo;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.stream.Stream;
 
 /**
  * @Description:
@@ -12,7 +13,7 @@ import java.util.List;
  */
 public class lambdaDemo {
     public static void main(String[] args) {
-
+        Stream.of("1",2,3,"wer").peek();
 //        Test<lambdaDemo> tt = lambdaDemo::new;
         Test<lambdaDemo> tt = () -> new lambdaDemo();
         lambdaDemo t = tt.testAAA();
